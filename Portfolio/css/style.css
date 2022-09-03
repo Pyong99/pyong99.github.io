@@ -295,9 +295,7 @@ textarea {
   .projects__row-img {
     width: 100%;
     display: block;
-    object-fit: cover; 
-    -webkit-filter: drop-shadow(5px 5px 5px #CFCFCF);
-    filter: drop-shadow(5px 5px 5px #CFCFCF);} //shadow
+    object-fit: cover; }
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
