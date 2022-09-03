@@ -296,9 +296,8 @@ textarea {
     width: 100%;
     display: block;
     object-fit: cover; 
-    width: 150px;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);} //shadow
+    -webkit-filter: drop-shadow(5px 5px 5px #CFCFCF);
+    filter: drop-shadow(5px 5px 5px #CFCFCF);} //shadow
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
