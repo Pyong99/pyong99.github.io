@@ -296,7 +296,7 @@
                 placeholder="Enter Your Name"
                 type="text"
                 class="contact__form-input"
-                name="name"
+                name="_subject"
                 id="name"
               />
             </div>
@@ -313,16 +313,18 @@
             </div>
             <div class="contact__form-field">
               <label class="contact__form-label" for="message">Message</label>
-              <textarea
+              <input
                 required
                 cols="30"
                 rows="10"
                 class="contact__form-input"
                 placeholder="Enter Your Message"
+                type="text"
                 name="message"
                 id="message"
-              ></textarea>
+              />
             </div>
+            <input type="hidden" name="_next" value="thankyou.html">
             <button type="submit" class="btn btn--theme contact__btn">
               Submit
             </button>
