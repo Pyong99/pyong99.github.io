@@ -295,7 +295,8 @@ textarea {
   .projects__row-img {
     width: 100%;
     display: block;
-    object-fit: cover; }
+    object-fit: cover; 
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);}
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
